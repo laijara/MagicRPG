@@ -2047,38 +2047,38 @@ appliedenergistics2:tile.ChiseledQuartzSlabBlock:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock:0, Certus Quartz Pillar Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock.double:0, Certus Quartz Pillar Slabs
-ThaumicTinkerer:fireOrder, Пропитанный Ordo огонь
-ThaumicTinkerer:fireChaos, Пропитанный Perditio огонь
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:warpGate, Небесный портал
+ThaumicTinkerer:repairer, Таум-восстановитель
 ThaumicTinkerer:darkQuartz:0, Блок закоптившегося кварца
 ThaumicTinkerer:darkQuartz:1, Резной блок закоптившегося кварца
 ThaumicTinkerer:darkQuartz:2, Колонна из закоптившегося кварца
-ThaumicTinkerer:warpGate, Небесный портал
-ThaumicTinkerer:fireEarth, Пропитанный Terra огонь
-ThaumicTinkerer:interface, Трансвектор
+ThaumicTinkerer:fireOrder, Пропитанный Ordo огонь
+ThaumicTinkerer:fireChaos, Пропитанный Perditio огонь
+ThaumicTinkerer:dislocator, Трансвекторный дислокатор
+ThaumicTinkerer:darkQuartzStairs, Ступеньки закоптившегося кварца
 ThaumicTinkerer:forcefield, Силовое поле
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:funnel, Воронка для эссенции
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:animationTablet, Динамическая дощечка
 ThaumicTinkerer:Levitational Locomotive Relay, Стрелка левитатора
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:interface, Трансвектор
+ThaumicTinkerer:fireAir, Пропитанный Aer огонь
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:darkQuartzSlab:0, Плита закоптившегося кварца
+ThaumicTinkerer:darkQuartzSlabFull:0, Плита закоптившегося кварца
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:Levitational Locomotive, Левитатор
+ThaumicTinkerer:fireFire, Пропитанный Ignis огонь
+ThaumicTinkerer:funnel, Воронка для эссенции
+ThaumicTinkerer:fireWater, Пропитанный Aqua огонь
+ThaumicTinkerer:fireEarth, Пропитанный Terra огонь
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:enchanter, Осмотический стол зачарований
+ThaumicTinkerer:animationTablet, Динамическая дощечка
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
 ThaumicTinkerer:platform, Эфирная платформа
 ThaumicTinkerer:magnet:0, Кинетический притяжатель
 ThaumicTinkerer:magnet:1, Материальный притяжатель
-ThaumicTinkerer:enchanter, Осмотический стол зачарований
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:fireAir, Пропитанный Aer огонь
-ThaumicTinkerer:darkQuartzSlab:0, Плита закоптившегося кварца
-ThaumicTinkerer:darkQuartzSlabFull:0, Плита закоптившегося кварца
 ThaumicTinkerer:spawner, Пьедестал некроманта
-ThaumicTinkerer:darkQuartzStairs, Ступеньки закоптившегося кварца
-ThaumicTinkerer:dislocator, Трансвекторный дислокатор
-ThaumicTinkerer:Levitational Locomotive, Левитатор
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:fireWater, Пропитанный Aqua огонь
-ThaumicTinkerer:fireFire, Пропитанный Ignis огонь
-ThaumicTinkerer:repairer, Таум-восстановитель
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
 ForbiddenMagic:ArcaneCake, Таумический торт
 ForbiddenMagic:WrathCage, Клетка гнева
 ForbiddenMagic:InkFlower, Мрачная роза
@@ -2259,6 +2259,29 @@ ae2stuff:Encoder, Кодировщик шаблонов
 ae2stuff:Grower, Камера для выращивания кристаллов
 ae2stuff:Inscriber, Продвинутый высекатель
 ae2stuff:Wireless, Беспроводной соединитель
+aura:consumerBlockfurnace, Cascading Smelter
+aura:consumerBlockplant, Cascading Grower
+aura:consumerBlockore, Cascading Processor
+aura:consumerBlockloot, Cascading Looter
+aura:consumerBlockmob, Cascading Spawner
+aura:consumerBlockangel, Cascading Synthesizer
+aura:consumerBlocknether, Ritual of the Nether
+aura:consumerBlockenchant, Kaleidoscopic Enchanter
+aura:consumerBlockpotion, Cascading Brewer
+aura:consumerBlockdye, Cascading Colorer
+aura:consumerBlockoreAdv, Prismatic Processor
+aura:consumerBlockminer, Cascading Miner
+aura:consumerBlockfish, Cascading Fisher
+aura:consumerBlockend, Ritual of the End
+aura:magicRoad, Traveler's Bricks
+aura:fairyTorch, tile.fairyTorch.name
+aura:fortifiedDirt, Fortified Dirt
+aura:fortifiedWood, Fortified Planks
+aura:fortifiedGlass, Fortified Glass
+aura:fortifiedCobblestone, Fortified Cobblestone
+aura:fortifiedStone, Fortified Stone
+aura:fortifiedObsidian, Fortified Obsidian
+aura:storageBookshelf, Storage Bookshelf
 aura:monitor, Monitor
 aura:trampoline, Rebounding Enigma
 aura:auraNode, Aura Node
@@ -2280,29 +2303,6 @@ aura:auraNodepumpCreative, Creative Pump (Creative Only)
 aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
 aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
 aura:auraNodeflux, Fluxing Node
-aura:magicRoad, Traveler's Bricks
-aura:fairyTorch, tile.fairyTorch.name
-aura:storageBookshelf, Storage Bookshelf
-aura:consumerBlockfurnace, Cascading Smelter
-aura:consumerBlockplant, Cascading Grower
-aura:consumerBlockore, Cascading Processor
-aura:consumerBlockloot, Cascading Looter
-aura:consumerBlockmob, Cascading Spawner
-aura:consumerBlockangel, Cascading Synthesizer
-aura:consumerBlocknether, Ritual of the Nether
-aura:consumerBlockenchant, Kaleidoscopic Enchanter
-aura:consumerBlockpotion, Cascading Brewer
-aura:consumerBlockdye, Cascading Colorer
-aura:consumerBlockoreAdv, Prismatic Processor
-aura:consumerBlockminer, Cascading Miner
-aura:consumerBlockfish, Cascading Fisher
-aura:consumerBlockend, Ritual of the End
-aura:fortifiedDirt, Fortified Dirt
-aura:fortifiedWood, Fortified Planks
-aura:fortifiedGlass, Fortified Glass
-aura:fortifiedCobblestone, Fortified Cobblestone
-aura:fortifiedStone, Fortified Stone
-aura:fortifiedObsidian, Fortified Obsidian
 aura:storageBookshelfCoordinator, Bookshelf Coordinator
 Automagy:blockRedcrystal, Красный Кристалл
 Automagy:blockRedcrystalAmp, Усиленный Красный Кристалл
@@ -4350,7 +4350,7 @@ evilcraft:reinforcedUndeadPlank:0, Reinforced Undead Plank
 evilcraft:sanguinaryEnvironmentalAccumulator:0, Sanguinary Environmental Acc.
 evilcraft:boxOfEternalClosure:0, Коробка вечного закрытия
 evilcraft:boxOfEternalClosure:0, Коробка вечного закрытия
-ExtraUtilities:endConstructor:0, QED (Quadratic Equation Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Ender Diviner)
 ExtraUtilities:endConstructor:2, Флаксовый кристалл Края
 ExtraUtilities:endMarker, Маркер Края
 ExtraUtilities:curtains, Занавесы

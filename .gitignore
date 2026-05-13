@@ -1,9 +1,9 @@
-# Логи и отчеты об ошибках
+# === Логи и отчеты об ошибках ===
 logs/
 crash-reports/
 *.log
 
-# Сохранения, бэкапы и данные карт (у каждого игрока свои)
+# === Миры, бэкапы и данные карт (у каждого игрока свои) ===
 saves/
 backups/
 XaeroWaypoints/
@@ -11,10 +11,12 @@ XaeroWaypoints_BACKUP*/
 XaeroWorldMap/
 TIWorldData/
 TCNodeTracker/
-compendiumUnlocks/
+compendiumunlocks/
 compendiumUpdates/
+DivineRPG/
+BotaniaVars.dat
 
-# Кэш, библиотеки и служебные файлы лаунчера
+# === Кэш, библиотеки и служебные папки лаунчера ===
 .analytics/
 libraries/
 versions/
@@ -22,7 +24,12 @@ data/
 local/
 asm/
 usernamecache.json
-BotaniaVars.dat
+usercache.json
 
-# Пользовательские настройки (лучше не синхронизировать, чтобы не сбивать чужие)
+# === Пользовательские настройки (чтобы не сбивать чужие) ===
 betterfps.txt
+servers.dat
+perms.txt
+
+# === Медиа ===
+screenshots/

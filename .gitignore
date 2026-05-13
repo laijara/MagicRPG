@@ -1,0 +1,28 @@
+# Логи и отчеты об ошибках
+logs/
+crash-reports/
+*.log
+
+# Сохранения, бэкапы и данные карт (у каждого игрока свои)
+saves/
+backups/
+XaeroWaypoints/
+XaeroWaypoints_BACKUP*/
+XaeroWorldMap/
+TIWorldData/
+TCNodeTracker/
+compendiumUnlocks/
+compendiumUpdates/
+
+# Кэш, библиотеки и служебные файлы лаунчера
+.analytics/
+libraries/
+versions/
+data/
+local/
+asm/
+usernamecache.json
+BotaniaVars.dat
+
+# Пользовательские настройки (лучше не синхронизировать, чтобы не сбивать чужие)
+betterfps.txt

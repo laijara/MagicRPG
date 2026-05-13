@@ -1,0 +1,111 @@
+# Items
+item.ironbackpacks:basicBackpack.name=Базовый рюкзак
+item.ironbackpacks:ironBackpack.name=Железный рюкзак
+item.ironbackpacks:goldBackpack.name=Золотой рюкзак
+item.ironbackpacks:diamondBackpack.name=Алмазный рюкзак
+
+item.ironbackpacks:buttonUpgrade.name=Улучшение: Кнопки
+item.ironbackpacks:nestingUpgrade.name=Улучшение: Вложенность
+item.ironbackpacks:nestingAdvancedUpgrade.name=Улучшение: Продвинутая вложенность
+item.ironbackpacks:damageBarUpgrade.name=Улучшение: Индикатор заполненности
+item.ironbackpacks:filterBasicUpgrade.name=Улучшение: Базовый фильтр
+item.ironbackpacks:filterFuzzyUpgrade.name=Улучшение: Неточный фильтр
+item.ironbackpacks:filterOreDictUpgrade.name=Улучшение: Фильтр рудного словаря
+item.ironbackpacks:filterModSpecificUpgrade.name=Улучшение: Фильтр по модам
+item.ironbackpacks:filterAdvancedUpgrade.name=Улучшение: Продвинутый фильтр
+item.ironbackpacks:hopperUpgrade.name=Улучшение: Пополнение
+item.ironbackpacks:condenserUpgrade.name=Улучшение: Автокрафт
+item.ironbackpacks:condenserSmallUpgrade.name=Улучшение: Малый автокрафт
+item.ironbackpacks:condenserTinyUpgrade.name=Улучшение: Крошечный автокрафт
+item.ironbackpacks:renamingUpgrade.name=Улучшение: Переименование
+item.ironbackpacks:keepOnDeathUpgrade.name=Улучшение: Вечность
+item.ironbackpacks:additionalUpgradePointsUpgrade.name=Улучшение: Доп. очки улучшений
+item.ironbackpacks:quickDepositUpgrade.name=Улучшение: Быстрая выгрузка
+item.ironbackpacks:quickDepositPreciseUpgrade.name=Улучшение: Точная быстрая выгрузка
+item.ironbackpacks:filterMiningUpgrade.name=Улучшение: Шахтерский фильтр
+item.ironbackpacks:filterVoidUpgrade.name=Улучшение: Уничтожающий фильтр
+item.ironbackpacks:depthUpgrade.name=Улучшение: Глубина
+
+item.ironbackpacks:nest.name=Гнездо
+item.ironbackpacks:upgradeCore.name=Ядро улучшения
+item.ironbackpacks:jeweledFeather.name=Золотое перо
+item.ironbackpacks:treatedLeather.name=Обработанная кожа
+
+
+# Creative Tab
+itemGroup.ironbackpacks=Железные рюкзаки
+
+
+# Keybindings
+key_ironbackpacks_openbackpack=Открыть рюкзак
+key_ironbackpacks_equipbackpack=Надеть рюкзак
+
+
+# GUI
+gui.ironbackpacks.emptyUpgradeSlot=Пустой слот улучшения
+gui.ironbackpacks.noValidUpgradesFound=Подходящих улучшений не найдено!
+
+
+# Button
+button.ironbackpacks.rename.tooltip=Переименовывает рюкзак
+button.ironbackpacks.exact.tooltip=Точное совпадение
+button.ironbackpacks.fuzzy.tooltip=Неточное совпадение
+button.ironbackpacks.oreDict.tooltip=Совпадение по рудному словарю
+button.ironbackpacks.modSpecific.tooltip=Совпадение по моду
+button.ironbackpacks.packToInv.tooltip=Перемещает предметы из рюкзака в ваш инвентарь.
+button.ironbackpacks.invToPack.tooltip=Перемещает предметы из вашего инвентаря в рюкзак.
+button.ironbackpacks.barToPack.tooltip=Перемещает предметы с панели быстрого доступа в рюкзак.
+button.ironbackpacks.sort.tooltip=Сортирует и группирует предметы в рюкзаке (по локализованному алфавитному имени).
+button.ironbackpacks.left.tooltip=Сдвинуть влево.
+button.ironbackpacks.right.tooltip=Сдвинуть вправо.
+button.ironbackpacks.clear.basicFilter.tooltip=Очищает предметы базового фильтра.
+button.ironbackpacks.clear.fuzzyFilter.tooltip=Очищает предметы неточного фильтра.
+button.ironbackpacks.clear.oreDictFilter.tooltip=Очищает предметы фильтра рудного словаря.
+button.ironbackpacks.clear.modSpecificFilter.tooltip=Очищает предметы фильтра по модам.
+button.ironbackpacks.clear.miningFilter.tooltip=Очищает предметы шахтерского фильтра.
+button.ironbackpacks.clear.voidFilter.tooltip=Очищает предметы уничтожающего фильтра.
+button.ironbackpacks.clear.advancedFilter.tooltip=Сбрасывает продвинутый фильтр (очищает предметы и настройки кнопок).
+button.ironbackpacks.clear.hopper.tooltip=Очищает предметы для пополнения.
+button.ironbackpacks.clear.condenser.tooltip=Очищает предметы для крафта.
+button.ironbackpacks.clear.condenser.small.tooltip=Очищает предметы для малого крафта.
+button.ironbackpacks.clear.condenser.tiny.tooltip=Очищает предметы для крошечного крафта.
+
+
+# Tooltip
+tooltip.ironbackpacks.shift=Зажмите Shift для подробностей.
+tooltip.ironbackpacks.uuid=UUID: %s
+tooltip.ironbackpacks.backpack.upgrade.used=Использовано очков улучшений: %d/%d.
+tooltip.ironbackpacks.backpack.upgrade.used.alt=Использовано альтернативных улучшений интерфейса: %d/%d.
+tooltip.ironbackpacks.backpack.upgrade.used.tier=Добавлено дополнительных очков улучшений: %d/%d.
+tooltip.ironbackpacks.backpack.upgrade.rename=(%d-е улучшение должно включать улучшение переименования)
+
+tooltip.ironbackpacks.upgrade.cost=Требует %d очк. улучшений%s
+tooltip.ironbackpacks.upgrade.button.desc=Добавляет кнопки для быстрого перемещения предметов в рюкзак и из него, а также кнопку для быстрой сортировки вашего рюкзака.
+tooltip.ironbackpacks.upgrade.nesting.desc=Позволяет поместить любой рюкзак предыдущего уровня внутрь этого рюкзака.
+tooltip.ironbackpacks.upgrade.bar.desc=Добавляет полосу прочности, которая наглядно показывает, насколько заполнен рюкзак.
+tooltip.ironbackpacks.upgrade.soulbound.desc=Позволяет сохранить рюкзак после смерти. Однако само улучшение при этом исчезает (вам придется применить его снова, если захотите).
+tooltip.ironbackpacks.upgrade.quickDeposit.desc=При нажатии Shift + ПКМ по инвентарю с этим улучшением, рюкзак попытается выгрузить свое содержимое в этот инвентарь.
+tooltip.ironbackpacks.upgrade.quickDepositPrecise.desc=Аналогично быстрой выгрузке, но рюкзак будет выгружать только те предметы, которые уже есть в целевом инвентаре.
+tooltip.ironbackpacks.upgrade.advNesting.desc=Позволяет поместить &oлюбой&r &7рюкзак (и, следовательно, любой предмет) внутрь этого рюкзака.
+tooltip.ironbackpacks.upgrade.depth.desc=Позволяет вложенным рюкзакам сохранять полный функционал (т.е. работу фильтров/пополнения/крафта). Работает только для рюкзаков первого уровня вложенности (бесконечной вложенности нет).
+tooltip.ironbackpacks.upgrade.naming.desc=Позволяет переименовать рюкзак.
+
+tooltip.ironbackpacks.upgrade.basicFilter.desc=Добавляет настраиваемый фильтр предметов, которые рюкзак будет собирать автоматически.
+tooltip.ironbackpacks.upgrade.modSpecificFilter.desc=Аналогично базовому фильтру, но рюкзак будет подбирать любые предметы из того же мода, что и предметы в слотах фильтра.
+tooltip.ironbackpacks.upgrade.fuzzyFilter.desc=Аналогично базовому фильтру, но рюкзак будет игнорировать значения урона на предметах.
+tooltip.ironbackpacks.upgrade.oreDictFilter.desc=Аналогично базовому фильтру, но рюкзак будет подбирать любые предметы, зарегистрированные в рудном словаре под тем же именем, что и предметы в слоте фильтра.
+tooltip.ironbackpacks.upgrade.hopperFilter.desc=Позволяет указать предмет, запас которого в вашем инвентаре или на панели быстрого доступа будет автоматически пополняться из рюкзака.
+tooltip.ironbackpacks.upgrade.condenser.desc=Позволяет указать набор предметов, которые будут автоматически крафтиться по сетке 3x3 при попадании в рюкзак (например: редстоун -> редстоуновый блок).
+tooltip.ironbackpacks.upgrade.advFilter.desc=Аналогично базовому фильтру, но имеет 18 слотов, и каждый слот можно настраивать отдельно.
+tooltip.ironbackpacks.upgrade.miningFilter.desc=Автоматически подбирает любые руды, драгоценные камни или пыль, а также имеет базовый фильтр для других предметов (например, булыжника).
+tooltip.ironbackpacks.upgrade.voidFilter.desc=Автоматически уничтожает любые подобранные предметы, указанные в фильтре.
+tooltip.ironbackpacks.upgrade.condenser.small.desc=Позволяет указать набор предметов, которые будут автоматически крафтиться по сетке 2x2 при попадании в рюкзак (например: песок -> песчаник).
+tooltip.ironbackpacks.upgrade.condenser.tiny.desc=Позволяет указать предметы, которые будут крафтиться сами из себя при попадании в рюкзак (например: древесина -> доски).
+tooltip.ironbackpacks.upgrade.addUpgrades.desc=Добавляет еще %s в рюкзак. Может быть применено %s к рюкзаку максимального уровня.
+tooltip.ironbackpacks.upgrade.addUpgrades.amount.1=очко улучшений
+tooltip.ironbackpacks.upgrade.addUpgrades.amount.mult=%d очк. улучшений
+tooltip.ironbackpacks.upgrade.addUpgrades.mult=%d раз(а)
+
+
+# Miscellaneous
+misc.ironbackpacks.default.equpped.backpack.name=Надетый рюкзак

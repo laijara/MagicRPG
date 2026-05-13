@@ -1,0 +1,16 @@
+# X Minecraft Launcher abnormal-exit dump
+# Operation:        3ca0c8a7
+# Exit code:        1
+# Signal:           (none)
+# Started:          2026-05-13T14:10:58.993Z
+# Ended:            2026-05-13T14:43:37.418Z
+# Duration:         1958425ms
+# Crash report:     (none)
+===== stderr =====
+��� 13, 2026 5:12:19 PM com.google.common.eventbus.EventBus$LoggingSubscriberExceptionHandler handleException
+SEVERE: Could not dispatch event: Forge to public void net.minecraftforge.common.ForgeModContainer.onAvailable(cpw.mods.fml.common.event.FMLLoadCompleteEvent)
+
+Exception in thread "[DCVercionCheckDaemon]For mod: DummyCore" 
+
+===== stdout (pre-window-ready) =====
+(empty)

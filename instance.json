@@ -1,0 +1,39 @@
+{
+  "name": "MagicRPG",
+  "author": "DrasticDemise/Brizzle",
+  "description": "",
+  "version": "",
+  "runtime": {
+    "minecraft": "1.7.10",
+    "forge": "10.13.4.1614",
+    "neoForged": "",
+    "fabricLoader": "",
+    "quiltLoader": "",
+    "optifine": "",
+    "labyMod": ""
+  },
+  "java": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path\\java.exe",
+  "minMemory": 4096,
+  "maxMemory": 6144,
+  "assignMemory": true,
+  "vmOptions": [
+    "-XX:+UseG1GC",
+    "-XX:+UnlockExperimentalVMOptions",
+    "-XX:MaxGCPauseMillis=50",
+    "-XX:+DisableExplicitGC",
+    "-XX:TargetSurvivorRatio=90",
+    "-XX:G1NewSizePercent=50",
+    "-XX:G1MaxNewSizePercent=80",
+    "-XX:G1MixedGCLiveThresholdPercent=35"
+  ],
+  "env": {},
+  "url": "",
+  "icon": "",
+  "fileApi": "",
+  "server": null,
+  "lastAccessDate": 1778703243599,
+  "lastPlayedDate": 1778681458994,
+  "playtime": 71344620,
+  "creationDate": 1777326863535,
+  "path": "G:\\minecraft\\datalauncher\\instances\\MagicRPG"
+}

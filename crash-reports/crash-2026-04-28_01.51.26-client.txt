@@ -1,0 +1,199 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 28.04.26 1:51
+Description: Initializing game
+
+java.lang.IllegalArgumentException: Duplicate enchantment id! class witchinggadgets.common.magic.WGEnchantBackstab and class flaxbeard.thaumicexploration.enchantment.EnchantmentBinding Enchantment ID:77
+	at net.minecraft.enchantment.Enchantment.<init>(Enchantment.java:53)
+	at witchinggadgets.common.magic.WGEnchantBackstab.<init>(WGEnchantBackstab.java:12)
+	at witchinggadgets.common.WGContent.init(WGContent.java:198)
+	at witchinggadgets.WitchingGadgets.init(WitchingGadgets.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:737)
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:311)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:552)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.enchantment.Enchantment.<init>(Enchantment.java:53)
+	at witchinggadgets.common.magic.WGEnchantBackstab.<init>(WGEnchantBackstab.java:12)
+	at witchinggadgets.common.WGContent.init(WGContent.java:198)
+	at witchinggadgets.WitchingGadgets.init(WitchingGadgets.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:737)
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:311)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:552)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_491, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 692283928 bytes (660 MB) / 3411542016 bytes (3253 MB) up to 7605846016 bytes (7253 MB)
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 68 mods loaded, 68 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHI	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHI	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHI	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHI	AM2-Preloader{0.0.3} [AMCore] (minecraft.jar) 
+	UCHI	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UCHI	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UCHI	ThaumicTinkerer-preloader{0.1} [Thaumic Tinkerer Core] (minecraft.jar) 
+	UCHI	WitchingGadgetsCore{1.1.10} [Witching Gadgets Core] (minecraft.jar) 
+	UCHI	OpenModsCore{0.9.1} [OpenModsCore] (minecraft.jar) 
+	UCHI	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHI	FastCraft{1.23} [FastCraft] (fastcraft-1.23.jar) 
+	UCHI	ExtendedPotions{1.2} [Extended Potions] (ExtendedPotions-MC1.7.10-1.2.jar) 
+	UCHI	AnimationAPI{1.2.4} [AnimationAPI] (AnimationAPI-1.7.10-1.2.4.jar) 
+	UCHI	arsmagica2{1.4.0.009} [Ars Magica 2] (1.7.10_AM2-1.4.0.009.jar) 
+	UCHI	AccidentallyCircumstantialEvents{1.12.10} [Accidentally Circumstantial Events] (accidentallycircumstantialevents-1.12.10.jar) 
+	UCHI	AM2PlantFix{1.0} [Ars Magica 2 Plant Fix] (AM2PlantFix-1.0.jar) 
+	UCHI	AppleCore{1.3.2} [AppleCore] (AppleCore-mc1.7.10-1.3.2.jar) 
+	UCHI	ATG{0.10.0} [Alternate Terrain Generation] (ATG-1.7.10-0.12.0.jar) 
+	UCHI	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHI	aura{unspecified} [Aura Cascade] (AuraCascade-557.jar) 
+	UCHI	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) 
+	UCHI	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCHI	Automagy{0.28.2} [Automagy] (Automagy-1.7.10-0.28.2.jar) 
+	UCHI	BiblioCraft{1.11.5} [BiblioCraft] (BiblioCraft[v1.11.5][MC1.7.10].jar) 
+	UCHI	AWWayofTime{v1.3.3} [Blood Magic: Alchemical Wizardry] (BloodMagic-1.7.10-1.3.3-17.jar) 
+	UCHI	Botania{r1.8-249} [Botania] (Botania r1.8-249.jar) 
+	UCHI	chisel{2.5.1.44} [Chisel 2] (Chisel2-2.5.1.44.jar) 
+	UCHI	CarpentersBlocks{3.3.8.1} [Carpenter's Blocks] (Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar) 
+	UCHI	CoFHCore{1.7.10R3.1.3} [CoFH Core] (CoFHCore-[1.7.10]3.1.3-327.jar) 
+	UCHI	MineTweaker3{3.0.13} [MineTweaker 3] (CraftTweaker-1.7.10-3.0.13.jar) 
+	UCHI	menagerie{1.0} [menagerie] (dark_menagerie-1.7.10-beta-3.1a.jar) 
+	UCHI	farseek{1.0.11} [Farseek] (Farseek-1.0.11.jar) 
+	UCHI	ThaumicTinkerer{unspecified} [Thaumic Tinkerer] (ThaumicTinkerer-2.5-1.7.10-164.jar) 
+	UCHI	ForbiddenMagic{1.7.10-0.575} [Forbidden Magic] (Forbidden Magic-1.7.10-0.575.jar) 
+	UCHI	FTBL{1.0.18.2} [FTBLib] (FTBLib-1.7.10-1.0.18.3.jar) 
+	UCHI	FTBU{1.0.18.2} [FTBUtilities] (FTBUtilities-1.7.10-1.0.18.3.jar) 
+	UCHI	gadomancy{1.0.7.3} [Gadomancy] (gadomancy-1.7.10-1.0.7.3.jar) 
+	UCHI	guideapi{1.7.10-1.0.1-20} [Guide-API] (Guide-API-1.7.10-1.0.1-20.jar) 
+	UCHI	HardcoreQuesting{4.4.4} [Hardcore Questing Mode] (HQM-The Journey-4.4.4.jar) 
+	UCHI	ImLookingAtBlood{1.1} [I'm Looking At Blood] (ImLookingAtBlood-1.7.2-1.1a.jar) 
+	UCHI	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] (InventoryTweaks-1.59-dev-152.jar) 
+	UCHI	IronChest{6.0.60.741} [Iron Chest] (ironchest-1.7.10-6.0.60.741-universal.jar) 
+	UCHI	JABBA{1.2.2} [JABBA] (Jabba-1.2.2_1.7.10.jar) 
+	UCHI	journeymap{5.1.4p1} [JourneyMap] (journeymap-1.7.10-5.1.4p1-unlimited.jar) 
+	UCHI	launchgui{1.7.10-2.0-18} [LaunchGUI] (LaunchGui-1.7.10-2.0-18-client.jar) 
+	UCHI	modtweaker2{0.9.6} [Mod Tweaker 2] (ModTweaker2-0.9.6.jar) 
+	UCHI	Morpheus{1.7.10-1.6.21} [Morpheus] (Morpheus-1.7.10-1.6.21.jar) 
+	UCHI	MouseTweaks{2.4.4} [Mouse Tweaks] (MouseTweaks-2.4.4-mc1.7.10.jar) 
+	UCHI	Mystcraft{0.12.3.03} [Mystcraft] (mystcraft-1.7.10-0.12.3.03.jar) 
+	UCHI	OpenMods{0.9.1} [OpenMods] (OpenModsLib-1.7.10-0.9.1.jar) 
+	UCHI	OpenBlocks{1.5.1} [OpenBlocks] (OpenBlocks-1.7.10-1.5.1.jar) 
+	UCHI	Quadrum{1.2.0} [Quadrum] (Quadrum-1.7.10-1.2.0.B13-universal.jar) 
+	UCHI	Roguelike{1.5.0} [Roguelike Dungeons] (roguelike-1.7.10-1.5.0b.jar) 
+	UCHI	Sanguimancy{1.7.10-1.1.9-35} [Sanguimancy] (Sanguimancy-1.7.10-1.1.9-35.jar) 
+	UCHI	StorageDrawers{1.7.10-1.10.6} [Storage Drawers] (StorageDrawers-1.7.10-1.10.6.jar) 
+	UCHI	streams{0.2} [Streams] (Streams-0.2.jar) 
+	UCHI	TCBotaniaExoflame{1.0} [TCBotaniaExoflame] (TCBotaniaExoflame-1.7.10-1.4.jar) 
+	UCHI	tcinventoryscan{1.0.11} [TC Inventory Scanning] (tcinventoryscan-mc1.7.10-1.0.11.jar) 
+	UCHI	tcnodetracker{1.1.2} [TC Node Tracker] (tcnodetracker-1.7.10-1.1.2.jar) 
+	UCHI	thaumcraftneiplugin{@VERSION@} [Thaumcraft NEI Plugin] (thaumcraftneiplugin-1.7.10-1.7a.jar) 
+	UCHI	ThaumicExploration{0.6.0} [Thaumic Exploration] (ThaumicExploration-1.7.10-1.1-53.jar) 
+	UCHI	ThaumicHorizons{1.1.9} [Thaumic Horizons] (thaumichorizons-1.7.10-1.1.9.jar) 
+	UCHI	thaumicinfusion{4.32} [Thaumic Infusion] (ThaumicInfusion-4.32.jar) 
+	UCHI	TravellersGear{1.16.6} [Traveller's Gear] (TravellersGear-1.7.10-1.16.6.jar) 
+	UCHI	wawla{1.3.1} [What Are We Looking At] (Wawla-1.0.5.120.jar) 
+	UCHI	witchery{0.24.1} [Witchery] (witchery-1.7.10-0.24.1.jar) 
+	UCHE	WitchingGadgets{1.1.10} [Witching Gadgets] (WitchingGadgets-1.7.10-1.1.10.jar) 
+	UCHI	aobd{2.9.2} [Another One Bites The Dust] (AOBD-2.9.2.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 591.86' Renderer: 'NVIDIA GeForce RTX 3060/PCIe/SSE2'
+	OpenModsLib class transformers: [stencil_patches:FINISHED],[movement_callback:FINISHED],[map_gen_fix:FINISHED],[gl_capabilities_hook:FINISHED],[player_render_hook:FINISHED]
+	Class transformer null safety: found misbehaving transformers: me.guichaguri.betterfps.transformers.MathTransformer(me.guichaguri.betterfps.transformers.MathTransformer@45c0fe04) returned non-null result: 0,me.guichaguri.betterfps.transformers.EventTransformer(me.guichaguri.betterfps.transformers.EventTransformer@24597883) returned non-null result: 0
+	CoFHCore: -[1.7.10]3.1.3-327
+	Stencil buffer state: Function set: GL30, pool: forge, bits: 8
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 591.86, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

@@ -1,0 +1,8 @@
+﻿tile.blockDisenchantmentTable.name=Стол снятия чар
+container.disenchant=Снятие чар
+msg.automatic.txt=автоматический
+msg.bulk.txt=массовое снятие чар
+msg.voiding.txt=уничтожающий
+msg.outdated.txt=Ваша версия мода Disenchanter устарела. Нажмите здесь, чтобы посетить веб-сайт!
+msg.currentversion.txt=Текущая версия: 
+msg.latestversion.txt=Последняя версия:

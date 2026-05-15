@@ -1,0 +1,14 @@
+key.categories.craftingtweaks=Улучшения крафта
+key.craftingtweaks.rotate=Вращать сетку
+key.craftingtweaks.clear=Очистить сетку
+key.craftingtweaks.balance=Сбалансировать сетку
+key.craftingtweaks.toggleButtons=Переключить кнопки
+key.craftingtweaks.compress=Сжать предмет
+key.craftingtweaks.decompress=Распаковать предмет
+
+tooltip.craftingtweaks.rotate=Вращать сетку
+tooltip.craftingtweaks.balance=Сбалансировать сетку
+tooltip.craftingtweaks.spread=Распределить по сетке
+tooltip.craftingtweaks.clear=Очистить сетку
+tooltip.craftingtweaks.forceClear=Принудительно очистить сетку
+tooltip.craftingtweaks.forceClearInfo=Выбрасывает предметы при необходимости

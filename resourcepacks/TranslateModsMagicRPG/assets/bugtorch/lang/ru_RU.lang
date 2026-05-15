@@ -1,0 +1,11 @@
+# Недостающие строки локализации для Mystcraft
+myst.symbol.TerrainFlat.name=Плоский обычный мир
+myst.symbol.TerrainVoid.name=Мир Пустоты
+
+# Недостающие строки локализации для Thaumcraft
+tile.blockCosmeticDoubleSlabStone.name=Каменная плита
+tile.blockCosmeticDoubleSlabWood.name=Деревянная плита
+
+# Недостающие строки локализации для Extra Utilities
+tile.dirt.name=Земля
+tile.sand.name=Песок
